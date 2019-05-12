@@ -1,0 +1,7 @@
+SendMessage(hwnd,message,wParam,lParam);
+hwnd:接受对象窗口句柄：可以给其他窗口发；
+message: 不仅是系统消息；
+	可以自定义消息（此时wParam,lParam自己定义）WM_USER；
+	#define WM_MYMS WM_USER+1;
+	#define WM_MYMS2 WM_USER+2;
+	
